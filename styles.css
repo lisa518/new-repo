@@ -1,0 +1,117 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+html{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+
+body {
+    margin: 0;
+    background-color: paleturquoise;
+}
+header {
+    background: url("https://images.unsplash.com/photo-1535042718606-9bd439fb63c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #eee;
+    padding: 75px;
+}
+
+.image-wrapper{
+    height: 200px;
+    width: 175px;
+    
+}
+
+header img {
+    /* border-radius: 25%; */
+    float: left;
+ max-width: 100%        
+    }
+.ingredients-div{
+    width:100%;
+    
+}
+
+.ingredients-section {
+   width:50%;
+   float:left;
+}
+
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/*ul li {
+    display: inline;
+}*/
+/*below is to get the top part to center & put stuff on different lines/////////////////////////*/
+
+/*p {
+    text-align: center;
+}*/
+
+#intro {
+    text-align: center;
+}
+
+
+h1, h2 {
+    margin-top:0;
+    margin-bottom:0;
+}
+h1{
+    clear: both;
+}
+h2{
+    margin-bottom:10px;
+    
+}
+/*???why didn't the intro paragraph center with the code below?  I had to center in html cuz below wasn't working???*/
+p {
+    margin-right: 35px;
+    margin-left: 35px;
+    text-align: center;
+    font-style: inherit;
+}
+
+/*img {
+    float: right;
+}*/
+
+/*???tried to center using below, but it didn't work?? */
+.directions-div {
+    text-align: center;
+    clear: both;
+}
+/*////////*/
+
+ol{
+    margin-right: 35px;
+    margin-left: 35px;
+}
+/*/////////////////////////////////////////////////////////////////////////NAV  ///////////////////////////////////////////////////////////////////////////////////*/
+
+
+/*footer {
+    clear: both;
+}
+*/
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #45a1ff;
+    color: #fff;
+}
+
+
